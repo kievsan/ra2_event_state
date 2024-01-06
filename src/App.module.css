@@ -1,0 +1,8 @@
+.portfolio {
+  padding: 0;
+  border: none;
+  margin: auto auto;
+  max-width: 70%;
+  min-width: 480px;
+  display: -webkit-box;
+}
