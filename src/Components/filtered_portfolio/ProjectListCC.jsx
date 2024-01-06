@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-import projects from './data';
 
 import classes from './main.module.css';
 
@@ -15,7 +14,7 @@ const ProjectList = ({projects}) => (
           <div className={classes.imgWrapper} key={idx+img}>
             <img className={classes.img} alt={category+" image "+name} 
             key={idx+img+category} 
-            src={"./"+img} />
+            src={img} />
           </div>
         )
       })
