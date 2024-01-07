@@ -7,7 +7,7 @@ import classes from './main.module.css';
 
 const IconSwitch = ({icon, onSwitch}) => {
     return (
-        <div className={classes["iconSwitchWrap"]}>
+        <div className={`${classes["cardsRoot"]} ${classes["iconSwitchWrap"]}`}>
             <button className={classes["iconSwitch"]} type="button" onClick={onSwitch}>
                 <i className={classes['material-icons']}>
                     {

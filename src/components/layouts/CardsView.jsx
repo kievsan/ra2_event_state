@@ -4,7 +4,7 @@ import classes from './main.module.css';
 
 
 const CardsView = ({ cards }) => (
-  <div className={classes["cardsRoot"]}>
+  <div className={`${classes["cardsRoot"]} ${classes["cardsWrap"]}`}>
     {
       cards.map((card, idx) => {
         return (          

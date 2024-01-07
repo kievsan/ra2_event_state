@@ -4,6 +4,9 @@
   margin: 0 auto;
   padding: 10px;
   max-width: 1200px;
+}
+
+.cardsWrap {
   display: flex;
   flex-wrap: wrap;
   flex-grow: 1;
@@ -11,11 +14,10 @@
 }
 
 .iconSwitchWrap {
-  margin: 25px;
-  margin-bottom: 0;
-  display: flex;
+  margin-bottom: -20px;
+  display:flex;
   justify-content: flex-end;
-  align-content:center;
+  align-content:flex-end;
 }
 
 .iconSwitch {

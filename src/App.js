@@ -10,9 +10,7 @@ function App() {
       <div className={classes["portfolio"]}>
           <Portfolio />
       </div>
-      <div className={classes["store"]}>
-          <Store />
-      </div>
+      <Store />
     </>
   );
 }
