@@ -1,8 +1,8 @@
 import { Component } from 'react';
 import projects from './data';
 
-import ProjectList from './ProjectListCC';
-import Toolbar from './ToolbarCC';
+import ProjectList from './ProjectList';
+import Toolbar from './Toolbar';
 
 import classes from './main.module.css';
 
@@ -18,21 +18,6 @@ class Portfolio extends Component {
     state = {
         activeFilter: FilterType.ALL,
     }
-
-/*     constructor(props) {
-        super(props);
-        this.like = this.like.bind(this);
-    }
-
-    like() {
-        this.setState((state) => ({count: state.count + 1 }));
-    }
-
-    render() {
-        return (
-            <button onClick={this.like}>Количество лайлов: {this.state.count}</button>
-        );
-    } */
   
     onSelectFilter = (filter) => {
         this.setState({activeFilter: filter});
